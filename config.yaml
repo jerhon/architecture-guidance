@@ -1,0 +1,18 @@
+baseURL: "http://example.org/"
+languageCode: "en-us"
+title: "honlSoft Architecture Guidance"
+theme: book
+#enableGitInfo: true
+disableKinds: 
+  - taxonomy
+  - taxonomyTerm
+
+
+params:
+    BookToC: true
+    #BookLogo:
+    BookMenuBundle: /menu 
+    BookSection: /docs
+    BookDateFormat: 'Jan 2, 2006'
+    BookSearch: true
+    BookComments: false
